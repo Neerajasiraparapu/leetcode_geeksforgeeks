@@ -46,9 +46,7 @@ class Sol
                 }
             }
         }
-        if(flag==0){
-            return 0;
-        }
-        return 1;
+        if(flag==1)return 1;
+        return 0;
     }
 }
